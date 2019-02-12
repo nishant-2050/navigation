@@ -35,7 +35,7 @@ import kotlinx.android.synthetic.main.item_list_fragment.view.item_list
 /**
  * Fragment used to show how to navigate to another destination
  */
-class HomeFragment : Fragment(), ItemClickHandler {
+class ItemListFragment : Fragment(), ItemClickHandler {
 
     override fun onItemCLick(selectedItem: Int) {
         findNavController().navigate(R.id.action_go_detail, null)

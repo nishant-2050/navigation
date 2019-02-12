@@ -26,7 +26,7 @@ import com.example.android.codelabs.navigation.R.layout
 /**
  * A simple [Fragment] subclass.
  */
-class ShoppingCartFragment : Fragment() {
+class InfoFragment : Fragment() {
 
     override fun onCreateView(
             inflater: LayoutInflater,

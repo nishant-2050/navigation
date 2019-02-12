@@ -1,4 +1,4 @@
-package com.example.android.codelabs.navigation.recipies
+package com.example.android.codelabs.navigation.recipies.ui
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.android.codelabs.navigation.R.layout
-import com.example.android.codelabs.navigation.recipies.ItemListAdapter.ItemListViewHolder
-import com.example.android.codelabs.navigation.recipies.data.RecipeList
+import com.example.android.codelabs.navigation.recipies.ui.ItemListAdapter.ItemListViewHolder
+import com.example.android.codelabs.navigation.recipies.data.model.RecipeList
 import kotlinx.android.synthetic.main.row_list_item.view.id_ingr
 import kotlinx.android.synthetic.main.row_list_item.view.id_thumbnail
 import kotlinx.android.synthetic.main.row_list_item.view.id_title

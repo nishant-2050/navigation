@@ -1,7 +1,7 @@
-package com.example.android.codelabs.navigation
+package com.example.android.codelabs.navigation.recipies
 
-import com.example.android.codelabs.navigation.recipies.data.Recipe
-import com.example.android.codelabs.navigation.recipies.data.RecipeList
+import com.example.android.codelabs.navigation.recipies.data.model.Recipe
+import com.example.android.codelabs.navigation.recipies.data.model.RecipeList
 
 fun getReceipeList() : RecipeList {
     var recipe1 = Recipe(

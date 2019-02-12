@@ -1,4 +1,4 @@
-package com.example.android.codelabs.navigation.recipies.data
+package com.example.android.codelabs.navigation.recipies.data.model
 
 data class Recipe(
     var id: Int,

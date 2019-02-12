@@ -25,7 +25,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name=".recipies.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,21 +33,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <!-- TODO STEP 12.2 -->
-            <!--<nav-graph android:value="@navigation/mobile_navigation" />-->
-            <!-- TODO END STEP 12.2-->
+            <nav-graph android:value="@navigation/mobile_navigation" />
 
         </activity>
-
-        <receiver android:name=".DeepLinkAppWidgetProvider">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/deep_link_appwidget_info" />
-        </receiver>
 
     </application>
 
