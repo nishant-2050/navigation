@@ -14,18 +14,19 @@
  * limitations under the License.
  */
 
-package com.example.android.codelabs.navigation
+package com.example.android.codelabs.navigation.recipies.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.android.codelabs.navigation.R.layout
 
 /**
  * A simple [Fragment] subclass.
  */
-class SettingsFragment : Fragment() {
+class ShoppingCartFragment : Fragment() {
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -33,7 +34,7 @@ class SettingsFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.settings_fragment, container, false)
+        return inflater.inflate(layout.info_fragment, container, false)
     }
 
 }
